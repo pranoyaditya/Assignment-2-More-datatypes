@@ -14,11 +14,11 @@ public class TransformNumberToMonthNameRunner {
         {
             String monthName = transformNumberToMonthName.getMonthName(number);
 
-            System.out.println("Month name: " + monthName);
+            System.out.println("\nMonth name: " + monthName);
         }
         else
         {
-            System.out.println("Wrong input!");
+            System.out.println("\nWrong input!");
         }
 
         sc.close();
